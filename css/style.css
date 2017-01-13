@@ -15,6 +15,8 @@ body {
 
 #header-nav{
 	background color:yellow;
+	border:0;
+	border-radius:0;
 }
 
 #sub-container {
