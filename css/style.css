@@ -1,5 +1,4 @@
 #container {
-
 	margin:0px;
 	padding:0px;
 }
@@ -9,14 +8,28 @@
 body {
 	margin:0px;
 	padding:0px;
-
-
 }
 
+.navbar-brand {
+
+}
+.navbar-brand h1{
+	color:#AEB86B;
+	font-size: 25px;
+	font-weight: bold;
+	font-family:'Alex Brush';
+	font-style:italic;
+	text-align:left;
+	text-shadow: 2px 2px 2px #000;
+	padding-left:2%;
+	margin:0;
+}
 #header-nav{
-	background color:#B7AA49;
+	
+	background-color:#39364A;
 	border:0;
 	border-radius:0;
+	
 }
 
 #sub-container {
@@ -35,13 +48,12 @@ overflow:auto;
 overflow-x: hidden;
 }
 
-p.header{
+p.menu{
 	font-family: 'Rubik';
 	font-size: 30px;
 	text-align:center;
-	position: absolute;
-	top:40px;
-	margin: 40px;
+	top:60px;
+	text-align: center
 }
 
 div#sub-container p {
@@ -53,30 +65,25 @@ div#sub-container p {
 	font-family: 'Rubik';
 	font-style:normal;
 	font-weight: 600;
-	
-	
 }	
 
 div.chicken p {
  	background-color:#8A5C8E;
     color: #000000;
-
 }
 
 div.beef p {	
 	background-color:#B01C31;
 	color: #FFFFFF;
-	
+
 }
 
 div.sushi p {	
 	background-color:#E0C957;
 	color: #000000;
-	
 }
 /*
 @media(min-width:992px){
-
   #text {
   height:180px;
   }
@@ -88,7 +95,6 @@ div.sushi p {
 	 width:30%;
 	 
  }
-
  .beef {
 	 position: absolute;
 	 left:35%;
@@ -96,7 +102,6 @@ div.sushi p {
 	 width:30%;
 	 
  }
-
  .sushi {
 	 position: absolute;
 	 left:67.5%;
@@ -104,11 +109,8 @@ div.sushi p {
 	 width:30%;
 	 
  }
-
 }
-
 @media(min-width: 768px) and (max-width: 991px){
-
   #text {
   height:220px;
   }
@@ -118,14 +120,12 @@ div.sushi p {
 	 top:60px;	 
 	 width:48%;
 }
-
  .beef {
 	 position: absolute;
 	 left:51%;
 	 top:60px;
 	 width:48%;
  }
-
  .sushi {
  	 width:98%;
 	 position: absolute;
@@ -137,7 +137,6 @@ div.sushi p {
  	height:120px;
  }
 }
-
 @media (max-width: 767px){
   #text{
 	height:140px;	
@@ -148,14 +147,12 @@ div.sushi p {
 	 top:60px;	 
 	 width:98%;
  }
-
  .beef {
 	 position: absolute;
 	 left:1%;
 	 top:260px;
 	 width:98%;
  }
-
  .sushi {
  	 width:98%;
 	 position: absolute;
