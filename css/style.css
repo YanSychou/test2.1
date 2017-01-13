@@ -37,6 +37,8 @@ p.header{
 	font-family: 'Rubik';
 	font-size: 30px;
 	text-align:center;
+	position: absolute;
+	top:40px;
 	margin: 40px;
 }
 
